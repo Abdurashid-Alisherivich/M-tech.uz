@@ -1,0 +1,1433 @@
+/* 800 Heavy */
+@font-face {
+  font-family: "Proxima Nova ExtraBold";
+  src: url("../Fonts/ProximaNova-Extrabld.ttf");
+}
+
+@font-face {
+  font-family: "Proxima Nova SemiBold";
+  src: url("../Fonts/ProximaNova-Semibold.ttf");
+}
+
+/* 700 bold */
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../Fonts/ProximaNova-Bold.ttf");
+}
+
+/* 400 regular bold */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../Fonts/ProximaNova-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0 !important;
+}
+
+.containerBasic {
+  max-width: 1980px !important;
+}
+
+
+/* Navbar Style Start */
+.navbarContactBtn {
+  width: 119px;
+  height: 44px;
+  position: absolute;
+  right: 9%;
+  top: 31%;
+}
+
+
+.container-fluidres {
+  max-width: 1980px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+}
+
+.navbar-wrapper {
+  display: flex;
+  gap: 15px;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.navbarBestStyle {
+  width: 100%;
+  height: 125px !important;
+  background: #2C3240 !important;
+}
+
+.me-auto {
+  margin-left: 18% !important;
+}
+
+.navbar-brand {
+  margin-left: 100px !important;
+  margin-right: 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 63px !important;
+}
+
+.navItemTextStyle {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-top: 10%;
+}
+
+.navItemTextStyle1 {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.navbarContactBtn {
+  font-family: 'Proxima Nova SemiBold';
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Navbar Style Finished */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Home Style Start */
+.homeWrapper {
+  width: 100%;
+  height: 100%;
+
+  background: url("https://firebasestorage.googleapis.com/v0/b/m-tech-9d5da.appspot.com/o/homeBgImg.svg?alt=media&token=030a6544-f79b-4b51-95e0-f4747c3c097c");
+  background-size: cover;
+}
+
+.homeBigText {
+  font-family: 'Proxima Nova ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: center;
+  padding-top: 165px !important;
+  /* identical to box height, or 100% */
+
+
+  color: #242424;
+}
+
+.homeSmallText {
+  font-family: 'Proxima Nova';
+  padding-bottom: 188px !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 32px;
+  /* identical to box height, or 136% */
+
+
+  color: #242424;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* Home Style Finished */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Parnership Style Start */
+.partnerShips {
+  width: 100%;
+  height: 150px;
+
+  background: #2C3240;
+}
+
+.parnershipsLogoStyle1 {
+  width: 133px;
+  height: 52px;
+  margin-left: 10%;
+  margin-top: 52px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.parnershipsLogoStyle2 {
+  width: 141px;
+  height: 38px;
+  margin-top: 54px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.parnershipsLogoStyle3 {
+  width: 74px;
+  height: 54px;
+  margin-top: 54px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.parnershipsLogoStyle4 {
+  width: 71px;
+  height: 54px;
+  margin-top: 54px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.parnershipsLogoStyle5 {
+  width: 137px;
+  height: 38px;
+  margin-top: 54px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+/* Partnershipt Style Finished */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Our Mission Start */
+.ourMissionWrapper {
+  width: 100%;
+  height: 647px;
+  left: calc(50% - 1440px/2 + 1440px);
+
+  background: #F7FBFE;
+}
+
+.ourMIssionImg {
+  margin-top: 134px;
+  width: 550px;
+  height: 384px;
+}
+
+.numberStytle {
+  margin-left: -2%;
+}
+
+.ourMissionBigText {
+  margin-top: 134px;
+  font-family: 'Proxima Nova ExtraBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height, or 120% */
+
+
+  color: #242424;
+}
+
+.ourMIssionSmallText {
+  margin-top: 20px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+
+  color: #242424;
+
+  opacity: 0.8;
+}
+
+/* Our Mission Wrapper */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Our Servise Start */
+.ourServiseWrapper {
+  width: 100%;
+}
+
+.ourServiseBasicTitle {
+  margin-top: 48px;
+  font-family: 'Proxima Nova ExtraBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height, or 120% */
+  text-align: center;
+
+  color: #242424;
+
+}
+
+.ourServiseImg1 .card {
+
+  position: relative;
+  overflow: hidden;
+  width: 531px;
+  margin: 0 auto;
+  height: 330px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/m-tech-9d5da.appspot.com/o/ourServisSoftDev.svg?alt=media&token=efdff648-3b08-41fe-a995-2f38b3d1834e');
+  padding: 20px;
+  text-align: center;
+}
+
+.ourServiseImg2 .card {
+
+  position: relative;
+  overflow: hidden;
+  width: 531px;
+  margin: 0 auto;
+  height: 330px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/m-tech-9d5da.appspot.com/o/ourServiseUIUX.svg?alt=media&token=8968c637-7856-4021-9d9c-ece0e0afb61e');
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.ourServiseImg3 .card {
+  margin-top: 8% !important;
+  position: relative;
+  overflow: hidden;
+  width: 531px;
+  margin: 0 auto;
+  height: 330px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/m-tech-9d5da.appspot.com/o/ourServisITAudit.svg?alt=media&token=3e1a6e51-4654-4c90-aa5b-5e4b23a6fd19');
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.ourServiseImg4 .card {
+  margin-top: 8% !important;
+  position: relative;
+  overflow: hidden;
+  width: 531px;
+  margin: 0 auto;
+  height: 330px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/m-tech-9d5da.appspot.com/o/ourServisBusinesAuto.svg?alt=media&token=22fced6b-4b33-4e2f-8140-76e6feee0a56');
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.testimonialTextStyle {
+  font-family: 'Proxima Nova ExtraBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  text-align: left;
+  margin-left: 5%;
+  /* identical to box height, or 81% */
+
+  text-transform: capitalize;
+  margin-top: 97px;
+
+  color: #FFFFFF;
+
+}
+
+.testimonialSmallTextAtyle {
+  display: none;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 5%;
+  box-shadow: unset !important;
+
+  color: #FFFFFF;
+
+  opacity: 0.8;
+}
+
+.contactButtonStyle {
+  font-family: 'Proxima Nova Bold';
+}
+
+.card {
+  border: unset !important;
+}
+
+.ourServiseImg1 .card .layer {
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 173px);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(180deg, rgba(44, 50, 64, 0) 0%, #2C3240 90.79%);
+  transition: 0.5s;
+
+}
+
+.ourServiseImg2 .card .layer {
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 173px);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(180deg, rgba(44, 50, 64, 0) 0%, #2C3240 90.79%);
+  border-radius: 4px;
+  transition: 0.5s;
+
+}
+
+.ourServiseImg3 .card .layer {
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 173px);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(180deg, rgba(44, 50, 64, 0) 0%, #2C3240 90.79%);
+  border-radius: 4px;
+  transition: 0.5s;
+
+}
+
+.ourServiseImg4 .card .layer {
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 173px);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(180deg, rgba(44, 50, 64, 0) 0%, #2C3240 90.79%);
+  border-radius: 4px;
+  transition: 1s;
+
+}
+
+.ourServiseImg1 .card .content {
+  z-index: 2;
+  position: relative;
+}
+
+.ourServiseImg2 .card .content {
+  z-index: 2;
+  position: relative;
+}
+
+.ourServiseImg3 .card .content {
+  z-index: 2;
+  position: relative;
+}
+
+.ourServiseImg4 .card .content {
+  z-index: 2;
+  position: relative;
+}
+
+/* testimonialTextStyle */
+
+.ourServiseImg1 .card:hover .layer {
+  top: 0;
+  display: block;
+  margin-top: 10px;
+}
+
+.ourServiseImg1 .card:hover .layer .testimonialSmallTextAtyle {
+  display: block;
+  margin-top: 20px;
+}
+
+.ourServiseImg1 .card:hover .layer .testimonialTextStyle {
+  display: block;
+  margin-top: 164px;
+  transition: 0.5s;
+}
+
+.ourServiseImg2 .card:hover .layer {
+  top: 0;
+  display: block;
+  margin-top: 10px;
+}
+
+.ourServiseImg2 .card:hover .layer .testimonialSmallTextAtyle {
+  display: block;
+  margin-top: 10px;
+}
+
+.ourServiseImg2 .card:hover .layer .testimonialTextStyle {
+  display: block;
+  margin-top: 164px;
+  transition: 0.5s;
+}
+
+.ourServiseImg3 .card:hover .layer {
+  top: 0;
+  display: block;
+  margin-top: 10px;
+}
+
+.ourServiseImg3 .card:hover .layer .testimonialSmallTextAtyle {
+  display: block;
+  margin-top: 10px;
+}
+
+.ourServiseImg3 .card:hover .layer .testimonialTextStyle {
+  display: block;
+  margin-top: 164px;
+  transition: 0.5s;
+}
+
+.ourServiseImg4 .card:hover .layer .testimonialSmallTextAtyle {
+  display: block;
+  margin-top: 10px;
+}
+
+.ourServiseImg4 .card:hover .layer {
+  top: 0;
+  display: block;
+  margin-top: 10px;
+}
+
+.ourServiseImg4 .card:hover .layer .testimonialTextStyle {
+  display: block;
+  margin-top: 164px;
+  transition: 0.5s;
+}
+
+.ourServiseImg1 .card .content p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+
+}
+
+.ourServiseImg2 .card .content p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+
+}
+
+.ourServiseImg3 .card .content p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+
+}
+
+.ourServiseImg4 .card .content p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+
+}
+
+.ourServiseImg1 .card .content .image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+
+}
+
+.ourServiseImg2 .card .content .image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+
+}
+
+.ourServiseImg3 .card .content .image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+
+}
+
+.ourServiseImg4 .card .content .image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+
+}
+
+.ourServiseImg1 .card .conte nt .details h2 {
+  font-size: 18px;
+  color: white;
+}
+
+.ourServiseImg2 .card .conte nt .details h2 {
+  font-size: 18px;
+  color: white;
+}
+
+.ourServiseImg3 .card .conte nt .details h2 {
+  font-size: 18px;
+  color: white;
+}
+
+.ourServiseImg4 .card .conte nt .details h2 {
+  font-size: 18px;
+  color: white;
+}
+
+.ourServiseImg1 .card .content .details h2 span {
+  font-size: 18px;
+  color: purple;
+  transition: 0.5s;
+}
+
+.ourServiseImg2 .card .content .details h2 span {
+  font-size: 18px;
+  color: purple;
+  transition: 0.5s;
+}
+
+.ourServiseImg3 .card .content .details h2 span {
+  font-size: 18px;
+  color: purple;
+  transition: 0.5s;
+}
+
+.ourServiseImg4 .card .content .details h2 span {
+  font-size: 18px;
+  color: purple;
+  transition: 0.5s;
+}
+
+.ourServiseImg1 .card:hover .content .details h2 span {
+  color: white;
+  position: relative
+}
+
+.ourServiseImg2 .card:hover .content .details h2 span {
+  color: white;
+  position: relative
+}
+
+.ourServiseImg3 .card:hover .content .details h2 span {
+  color: white;
+  position: relative
+}
+
+.ourServiseImg4 .card:hover .content .details h2 span {
+  color: white;
+  position: relative
+}
+
+/* Our Servise Finished */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Our Products Start */
+.ourProductsWrap {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  background: #F7FBFE;
+}
+
+.ourProductsBasicTitle {
+  padding-top: 50px !important;
+  font-family: 'Proxima Nova ExtraBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height, or 120% */
+  text-align: center;
+
+
+  color: #242424;
+}
+
+.ourServiseInsideNavStyle {
+  padding-left: -2% !important;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  /* line-height: 40px; */
+  /* identical to box height, or 125% */
+
+
+  color: rgba(36, 36, 36, 0.5);
+}
+
+.ourServiseInsideNavStyle:focus {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: -2% !important;
+  text-decoration-line: underline;
+  color: #242424;
+}
+
+.ourServiseInsideNavStyle:focus {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: 15%;
+  text-decoration-line: underline;
+
+  color: #242424;
+}
+
+.tryMarginLeft {
+  margin-left: 14%;
+}
+
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background: unset !important;
+  border: unset !important;
+}
+
+.nav-tabs :hover {
+  border: unset !important;
+}
+
+.nav-tabs {
+  border-bottom: unset !important;
+}
+
+.insideNavTitleStyle {
+  margin-top: 100px;
+  font-family: 'Proxima Nova SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height, or 120% */
+
+
+  color: #242424;
+}
+
+.nav-tabs .nav-link {
+  font-family: 'Proxima Nova ExtraBold';
+}
+
+.insideNavSmallTextStyle {
+  margin-top: 20px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+
+  color: #242424;
+
+  opacity: 0.8;
+}
+
+.ourProductImgStyle {
+  margin-top: 60px !important;
+  width: 644px;
+  height: 483px;
+  margin-bottom: 145px;
+}
+
+.ourProductImgStyle2 {
+  margin-top: 60px;
+  width: 644px;
+  height: 483px;
+  margin-top: 5%;
+  margin-bottom: 145px;
+}
+
+.ourProductImgStyle3 {
+  margin-top: 60px;
+  width: 644px;
+  height: 423px;
+  margin-bottom: 45px;
+}
+
+/* Our Products Finished */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Contcat Start */
+.contactBottomStyle {
+  margin-top: 40px;
+}
+
+.contactInputStyle {
+  width: 345px;
+  height: 58px;
+  margin-left: 30%;
+  padding: 10px !important;
+}
+
+.contactTextAreaStyle {
+  width: 486px;
+  height: 132px;
+  padding: 10px !important;
+}
+
+.contactButtonStyle {
+  width: 140px;
+  height: 54px;
+  margin-left: 76%;
+  margin-bottom: 52px;
+  margin-top: 20px;
+}
+
+/* Contact Finished */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Footer Start */
+.footerWrapper {
+  width: 100%;
+  height: auto;
+  background: #2C3240;
+}
+
+.footerTopStyle {
+  padding-top: 55px !important;
+}
+
+.footerSmallTextStyle {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+
+  color: #FFFFFF;
+
+  opacity: 0.6;
+  margin-top: 21px;
+}
+
+.footerBigTextStyle {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  /* identical to box height, or 100% */
+  margin-left: 100px;
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footerBigAllTextStyle {
+  text-decoration: none;
+  margin-left: 80px;
+  margin-top: 50px !important;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footerBigAllTextStyle:hover
+{
+color: #12CEFE;
+}
+
+.footerLogo1 {
+  margin-left: 65px;
+  width: 110px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.footerLogo2 {
+  margin-left: 65px;
+  width: 110px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.footerLogo3 {
+  margin-left: 65px;
+  width: 110px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.footerLogo4 {
+  margin-left: 65px;
+  width: 110px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+a {
+  text-decoration: none;
+}
+
+.footerLogo5 {
+  margin-left: 65px;
+  width: 110px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.allSocialMediaFooter {
+  margin-left: -2%;
+}
+
+.footerSocialMedia {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+/* Footer Finished */
+/* /////////////////////////////////////////////////////////////////////////// ////////////////////////////////////////////*/
+/* Start Media Query */
+
+@media (min-width: 820px) and (max-width: 1180px) {
+
+  .ourMIssionImg {
+    width: 100%;
+  }
+
+  .ourMissionBigText {
+    font-size: 35px;
+    margin-left: 7%;
+  }
+
+  .ourMIssionSmallText {
+    font-size: 14px;
+    margin-left: 7%;
+  }
+
+  .ourServiseImg1 .card {
+    width: 95%;
+  }
+
+  .ourServiseImg2 .card {
+    width: 95%;
+  }
+
+  .ourServiseImg3 .card {
+    width: 95%;
+  }
+
+  .ourServiseImg4 .card {
+    width: 95%;
+  }
+
+  .ourProductImgStyle2 {
+    width: 100%;
+  }
+
+  .contactTextAreaStyle {
+    width: 100%;
+  }
+
+  .contactInputStyle {
+    margin-left: unset;
+  }
+
+  .footerBigAllTextStyle {
+    margin-left: 7px;
+  }
+
+  .footerSocialMedia {
+    margin-left: 18px;
+  }
+
+  .footerWrapper {
+    height: auto;
+  }
+
+  .ourProductImgStyle {
+    width: 100%;
+  }
+
+  .ourProductImgStyle3 {
+    width: 100%;
+  }
+
+  .iconForMobile {
+    width: 80px;
+  }
+
+  .navbar-collapse {
+    background-color: #2C3240;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .navbar-collapse {
+    background-color: unset;
+    margin-left: -31%;
+  }
+
+  .me-auto {
+    margin-left: 12% !important;
+  }
+
+  .navbar-brand {
+    margin-left: 15px !important;
+    margin-right: 12rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ourMIssionImg {
+    width: 100%;
+  }
+
+  .footerLogo2 {
+    margin-left: 36px;
+  }
+
+  .ourMissionBigText {
+    font-size: 35px;
+    margin-left: 7%;
+  }
+
+  .ourMIssionSmallText {
+    font-size: 14px;
+    margin-left: 7%;
+  }
+
+  .ourServiseImg1 .card {
+    width: 95%;
+  }
+
+  .ourServiseImg2 .card {
+    width: 95%;
+  }
+
+  .ourServiseImg3 .card {
+    width: 95%;
+  }
+
+  .ourServiseImg4 .card {
+    width: 95%;
+  }
+
+  .ourProductImgStyle2 {
+    width: 100%;
+  }
+
+  .contactTextAreaStyle {
+    width: 100%;
+  }
+
+  .contactInputStyle {
+    margin-left: unset;
+  }
+
+  .footerBigAllTextStyle {
+    margin-left: 63px;
+  }
+
+  .footerSocialMedia {
+    margin-left: 18px;
+  }
+
+  .footerWrapper {
+    height: auto;
+  }
+
+  .ourProductImgStyle {
+    width: 100%;
+  }
+
+  .ourProductImgStyle3 {
+    width: 100%;
+  }
+
+  .iconForMobile {
+    width: 80px;
+  }
+
+  .navbar-collapse {
+    background-color: #2C3240;
+    margin-left: 0%;
+  }
+
+}
+
+.homeLinkAboutBtn {
+  width: 148px;
+  height: 49px;
+  background: #12CEFE;
+  border-radius: 6px;
+  border: unset;
+  font-family: 'Proxima Nova SemiBold';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #2C3240;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .homeLinkAboutBtn {
+    margin-left: 14%;
+  }
+
+  .navbarContactBtn {
+    position: absolute;
+    right: 10%;
+    top: 22%;
+  }
+
+  .row {
+    width: 97%;
+    margin-right: calc(var(--bs-gutter-x)/ -13)
+  }
+
+  .logoImgStyle {
+    width: 70px;
+    height: 45px;
+  }
+
+  .ourMIssionImg {
+    width: 100%;
+    height: 245px;
+    margin-top: 7%;
+    margin-left: 5%;
+  }
+
+  .ourMissionBigText {
+    font-size: 30px;
+  }
+
+  .ourProductsBasicTitle {
+    font-size: 30px;
+  }
+
+  /* .contactWrapper {
+    margin-top: 100%;
+  } */
+  .homeBigText {
+    font-size: 28px;
+    margin-top: 65%;
+    padding-top: 20px !important;
+    line-height: 2;
+  }
+
+  .contactInputStyle {
+    width: 100%;
+    margin-left: 5%;
+    height: 58px;
+  }
+
+  .contactButtonStyle {
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .footerLogo1 {
+    display: none;
+  }
+
+  .footerLogo1 {
+    display: none;
+  }
+
+  .footerLogo2 {
+    display: none;
+  }
+
+  .footerLogo3 {
+    display: none;
+  }
+
+  .footerLogo4 {
+    display: none;
+  }
+
+  .footerLogo5 {
+    display: none;
+  }
+
+  br {
+    display: none;
+  }
+
+  .footerBigAllTextStyle {
+    display: none;
+  }
+
+  .tryMarginLeft {
+    margin-left: 6%;
+  }
+
+  .ourServiseInsideNavStyle {
+    font-size: 21px;
+  }
+
+  .insideNavTitleStyle {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  .contactTextAreaStyle {
+    width: 100%;
+    margin-left: 5%;
+    height: 210px;
+  }
+
+
+  .ourProductImgStyle2 {
+    width: 100%;
+    height: 294px;
+    margin-left: 5%;
+  }
+
+  .ourProductImgStyle3 {
+    width: 100%;
+    height: 294px;
+    margin-left: 5%;
+  }
+
+  .navbar-brand {
+    margin-left: 30px !important;
+  }
+
+  .iconForMobile {
+    width: 40px !important;
+    margin-left: -60%;
+  }
+
+  .navbar-collapse {
+    background: #2C3240 !important;
+    width: 100%;
+    z-index: 500;
+  }
+
+  .homeWrapper {
+    height: auto;
+    margin-top: -61%;
+  }
+
+  .partnerShips {
+    height: auto !important;
+  }
+
+  .parnershipsLogoStyle1 {
+    width: 100%;
+    height: 65px;
+    margin-top: 40px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+    margin-left: 7% !important;
+  }
+
+  .parnershipsLogoStyle2 {
+    width: 100%;
+    height: 25px;
+    margin-top: 40px;
+    margin-bottom: 10%;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+    margin-left: 7% !important;
+  }
+
+  .parnershipsLogoStyle3 {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+    margin-left: 7% !important;
+
+  }
+
+  .parnershipsLogoStyle4 {
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+    margin-left: 7% !important;
+
+  }
+
+  .parnershipsLogoStyle5 {
+    width: 100%;
+    height: 20px;
+    margin-top: 40px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
+    margin-bottom: 5%;
+    margin-left: 7% !important;
+
+  }
+
+  .partnerShips {
+    width: 100%;
+    /* margin-left: 2%; */
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-top: 34px !important;
+  }
+
+  .ourMissionWrapper {
+    height: auto;
+  }
+
+  .ourMissionBigText {
+    padding-left: 5% !important;
+  }
+
+  .ourMIssionSmallText {
+    margin-left: 14%;
+  }
+
+  .ourServiseBasicTitle {
+    font-size: 30px;
+  }
+
+  .ourMissionWrapper {
+    width: 100%;
+    /* margin-left: 2.5%; */
+  }
+
+  .homeSmallText {
+    font-size: 14px;
+  }
+
+  .ourServiseWrapper {
+    width: 100%;
+    /* margin-left: 2.5%; */
+    height: auto;
+  }
+
+  .ourProductsWrap {
+    width: 100%;
+    /* margin-left: 2.5%; */
+    height: a7;
+  }
+
+  .ourServiseImg {
+    width: 100%;
+    height: 230px;
+    /* opacity: 0; */
+  }
+
+  .ourServiseImg1 .card {
+    margin-left: 5%;
+    width: 100%;
+  }
+
+  .ourServiseImg2 .card {
+    margin-left: 5%;
+    width: 100%;
+    margin-top: 7%;
+  }
+
+  .ourServiseImg3 .card {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .ourServiseImg4 .card {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .testimonialTextStyle {
+    font-size: 25px;
+  }
+
+  .testimonialSmallTextAtyle {
+    font-size: 12px;
+  }
+
+  .insideNavTitleStyle {
+    text-align: center;
+  }
+
+  .insideNavSmallTextStyle {
+    margin-left: 15%;
+    margin-top: 0px;
+  }
+
+  .ourProductImgStyle2 {
+    margin-bottom: 30px;
+  }
+
+  .ourProductImgStyle {
+    margin-bottom: 0px;
+    height: auto;
+  }
+
+  /* .tryMarginLeft {
+    margin-left: 5%;
+  } */
+
+  .ourProductImgStyle {
+    width: 370px;
+    height: 483px;
+    margin-left: 3%;
+    margin-top: -28%;
+  }
+
+  .homeWrapper {
+    height: 319px;
+    margin-top: -61%;
+  }
+
+  .ourMissionBigText {
+    margin-top: 0;
+  }
+
+  .footerWrapper {
+    height: auto;
+    margin-top: 10%;
+    /* margin-left: 5%; */
+    width: 100%;
+  }
+
+  .navbarBestStyle {
+    width: 100%;
+    height: 80px !important;
+  }
+
+
+  .footerSmallTextStyle {
+    text-align: left;
+    padding: 5% !important;
+    margin-left: 10%;
+  }
+
+  .FooimgTer {
+    margin-left: 35% !important;
+  }
+
+  .footerSocialMedia {
+    margin-left: 21%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  .me-auto {
+    margin-left: 9% !important;
+  }
+}

@@ -1,0 +1,194 @@
+/* 800 Heavy */
+@font-face {
+    font-family: "Proxima Nova ExtraBold";
+    src: url("../Fonts/ProximaNova-Extrabld.ttf");
+}
+
+@font-face {
+    font-family: "Proxima Nova SemiBold";
+    src: url("../Fonts/ProximaNova-Semibold.ttf");
+}
+
+/* 700 bold */
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: url("../Fonts/ProximaNova-Bold.ttf");
+}
+
+/* 400 regular bold */
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url("../Fonts/ProximaNova-Regular.ttf");
+}
+
+
+
+
+.contactBasicTitle {
+    font-family: 'Proxima Nova Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 120px;
+    color: #242424;
+}
+
+.contactDescription {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #242424;
+}
+
+.grtidSistemInContact {
+    margin-top: 112px;
+}
+
+.mapRealContact {
+    width: 100%;
+    margin-top: 234px;
+    height: 544px;
+    margin-bottom: 150px;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.allInputsName {
+    font-family: 'Proxima Nova Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #242424;
+}
+
+.labelInsideContact {
+    font-family: 'Proxima Nova Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 50px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #242424;
+
+}
+
+.labelInsideContact2 {
+    font-family: 'Proxima Nova Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* margin-top: 50px; */
+    text-align: center;
+    color: #242424;
+}
+
+.firtNameInput {
+    margin-top: 20px;
+    width: 90%;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(36, 36, 36, 0.6) !important;
+    height: 50px;
+    padding-left: 40px !important;
+    border-radius: unset !important;
+}
+
+.checkRadiosContact {
+    margin-left: 6%;
+    margin-top: 20px;
+}
+
+.submitButtonInContact {
+    width: 119px;
+    height: 44px;
+    background: #12CEFE;
+    border-radius: 6px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Proxima Nova SemiBold';
+    border: none;
+    margin-top: 30px;
+}
+
+.contactSocialMedia {
+    margin-left: 50%;
+}
+
+.contactSocialMediaTextStyle {
+    font-family: 'Proxima Nova Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+
+    color: #242424;
+}
+
+.contactSocialMediaNumberTextStyle {
+    font-family: 'Proxima Nova SemiBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 22px;
+    /* identical to box height, or 105% */
+
+
+    color: #242424;
+}
+
+.secondSocialContactStyle {
+    margin-top: 60px;
+}
+
+.contactSocialMediaNumberTextStyle a {
+    text-decoration: none;
+    color: #242424;
+}
+
+.contactSocialMediaNumberTextStyle a:hover {
+    color: #363df1;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .mapRealContact {
+        width: 100%;
+        margin-top: 10%;
+        height: 400px;
+        margin-bottom: 5%;
+    }
+
+    .grtidSistemInContact {
+        margin-left: 15%;
+    }
+
+    .firtNameInput {
+        width: 100%;
+    }
+
+    .contactSocialMedia {
+        margin-top: 8%;
+        margin-left: 3%;
+    }
+
+}

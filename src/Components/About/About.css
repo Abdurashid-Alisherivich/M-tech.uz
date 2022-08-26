@@ -1,0 +1,165 @@
+/* 800 Heavy */
+@font-face {
+    font-family: "Proxima Nova ExtraBold";
+    src: url("../Fonts/ProximaNova-Extrabld.ttf");
+}
+
+@font-face {
+    font-family: "Proxima Nova SemiBold";
+    src: url("../Fonts/ProximaNova-Semibold.ttf");
+}
+
+/* 700 bold */
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: url("../Fonts/ProximaNova-Bold.ttf");
+}
+
+/* 400 regular bold */
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url("../Fonts/ProximaNova-Regular.ttf");
+}
+
+.aboutWrapper {
+    margin-bottom: 150px;
+}
+
+.ABoutBasicTitle {
+    font-family: 'Proxima Nova SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 28%;
+    color: #242424;
+}
+
+.aboutDescriptionTitile {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #242424;
+    opacity: 0.8;
+}
+
+.AboutImg {
+    margin-top: 28%;
+    width: 100%;
+    height: 440px;
+}
+
+
+.ABoutBasicTitle2 {
+    font-family: 'Proxima Nova SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #242424;
+    margin-left: 3%;
+    margin-top: 16%;
+}
+
+.aboutDescriptionTitile2 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #242424;
+    opacity: 0.8;
+    margin-left: 3%;
+}
+
+.AboutImg2 {
+    margin-top: 16%;
+    width: 100%;
+    height: 440px;
+}
+
+.ABoutBasicTitle3 {
+    font-family: 'Proxima Nova SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 16%;
+    color: #242424;
+}
+
+.aboutDescriptionTitile3 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #242424;
+    opacity: 0.8;
+}
+
+.AboutImg3 {
+    margin-top: 16%;
+    width: 100%;
+    height: 440px;
+    margin-left: 3%;
+}
+
+
+.ulOlLiStyleAbout {
+    margin-left: 8%;
+}
+
+/* Start Media Query */
+
+@media screen and (max-width: 480px) {
+    .ABoutBasicTitle {
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .aboutDescriptionTitile {
+        margin-left: 8%;
+    }
+
+    .AboutImg {
+        margin-top: 2%;
+        width: 100%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .ABoutBasicTitle2 {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .aboutDescriptionTitile2 {
+        margin-left: 8%;
+    }
+
+    .AboutImg2 {
+        display: none;
+    }
+
+    .ABoutBasicTitle3 {
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .aboutDescriptionTitile3 {
+        margin-left: 8%;
+    }
+
+    .AboutImg3 {
+        margin-top: 2%;
+        width: 100%;
+        height: auto;
+        margin-left: 5%;
+    }
+}
